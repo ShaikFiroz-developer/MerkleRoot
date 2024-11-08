@@ -45,14 +45,19 @@ This project is a decentralized application (DApp) that enables users to fetch E
 
 ## Installation
 ---------------
-1. Clone the repository:
+1. Clone the repository: 
    ```bash
-   git clone https://github.com/yourusername/yourprojectname.git
-   cd yourprojectname
+   [git clone https://github.com/yourusername/yourprojectname.git](https://github.com/ShaikFiroz-developer/charter--21bce9396-)
+   cd MerkleProofVerification
    ```
-2. npm install --- to install all dependencies of project.
+   
+2.Note this is a private repo please clone with the collaborated git account. 
 
-3. Start project with command npm run dev
+3. npm install --- to install all dependencies of project.
+
+4. Start project with command npm run dev
+
+
 
 ## Usage
 --------
@@ -114,28 +119,28 @@ This project is a decentralized application (DApp) that enables users to fetch E
 ------------------------------------------------------------------------------------
 Available Accounts
 ==================
-(1) 0xb12bA0798667bE2666DfA7d0639c4879C766C3A0 (1000 ETH)
-(2) 0x8A7223D1b468f96853D0f6186EE06fC4B3b54479 (1000 ETH)
-(3) 0xfbE9d8ecC94E6fF72326E4af0Dac6AC25C7fD2AD (1000 ETH)
-(4) 0x7948a867F910C33e05A4277Dd6ED36bD1d18c54F (1000 ETH)
-(5) 0x5033fF49b3CAC430AE39023B9A0041Ce5bDc6A4c (1000 ETH)
-(6) 0x3F568ABC9f7CE98F38310b0a37C6259538b7eB99 (1000 ETH)
-(7) 0x9D67999e83a268bcEF852630CcbB80d494aE906b (1000 ETH)
-(8) 0x33e56693DA5f982355D1e4DBbec12fCb42cCEaFe (1000 ETH)
-(9) 0xaab4A412cea89a69411AcD63041A6aCf5bfde7FD (1000 ETH)
+-(1) 0xb12bA0798667bE2666DfA7d0639c4879C766C3A0 (1000 ETH)
+(-2) 0x8A7223D1b468f96853D0f6186EE06fC4B3b54479 (1000 ETH)
+-(3) 0xfbE9d8ecC94E6fF72326E4af0Dac6AC25C7fD2AD (1000 ETH)
+-(4) 0x7948a867F910C33e05A4277Dd6ED36bD1d18c54F (1000 ETH)
+-(5) 0x5033fF49b3CAC430AE39023B9A0041Ce5bDc6A4c (1000 ETH)
+-(6) 0x3F568ABC9f7CE98F38310b0a37C6259538b7eB99 (1000 ETH)
+-(7) 0x9D67999e83a268bcEF852630CcbB80d494aE906b (1000 ETH)
+-(8) 0x33e56693DA5f982355D1e4DBbec12fCb42cCEaFe (1000 ETH)
+-(9) 0xaab4A412cea89a69411AcD63041A6aCf5bfde7FD (1000 ETH)
 
 Private Keys
 ==================
-(1) 0xaddb6331ce0cf2ca4873ab7f8ea19eb057227c45d6c9a7e605432bff0f71ecdf
-(2) 0x0162f8b04961951059be62e7485b9de13dba9501f294c1367137c0f215678533
-(3) 0xf87e9ba5946e31d212238a37f243b5c0c4761c9ee8d1ba5dd2bd7adfad7f991d
-(4) 0xe167a8616c5f4b40dd982978ea77a7db24ef14dfb4d36e1dc4c2b6a6bfa3f83f
-(5) 0x5defea0af5d444249a51f13dc39cad6bbfbc53bb83caabcf72c9102e49e56d1b
-(6) 0x096525f2917b520893004ff0114afe1cd712191bf68c0b5e9519320dcba0dee7
-(7) 0xf2903d888594d34b5b2d77cb46e1088976f3de06d917d8d5005c33f5037f3ddd
-(8) 0x327391b4248274f20afece51548c0823d860a6f1128c83ccf04e90a06c1d7639
-(9) 0x7fdd04342dba4afd1b0c79b09ee48e92b5b79c93f7353d129dc73e697d689260
--------------------------------------------------------------------------------------------
+-(1) 0xaddb6331ce0cf2ca4873ab7f8ea19eb057227c45d6c9a7e605432bff0f71ecdf
+-(2) 0x0162f8b04961951059be62e7485b9de13dba9501f294c1367137c0f215678533
+-(3) 0xf87e9ba5946e31d212238a37f243b5c0c4761c9ee8d1ba5dd2bd7adfad7f991d
+-(4) 0xe167a8616c5f4b40dd982978ea77a7db24ef14dfb4d36e1dc4c2b6a6bfa3f83f
+-(5) 0x5defea0af5d444249a51f13dc39cad6bbfbc53bb83caabcf72c9102e49e56d1b
+-(6) 0x096525f2917b520893004ff0114afe1cd712191bf68c0b5e9519320dcba0dee7
+-(7) 0xf2903d888594d34b5b2d77cb46e1088976f3de06d917d8d5005c33f5037f3ddd
+-(8) 0x327391b4248274f20afece51548c0823d860a6f1128c83ccf04e90a06c1d7639
+-(9) 0x7fdd04342dba4afd1b0c79b09ee48e92b5b79c93f7353d129dc73e697d689260
+
 Each account is associated with 1000test eth which can used to widely test the application as needed. So first need to deploy the contract for that utilize 
 this 9 accounts utilizing this account can easily test and debug the application. 
 
