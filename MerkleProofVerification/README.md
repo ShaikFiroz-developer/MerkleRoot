@@ -39,6 +39,10 @@ This project is a decentralized application (DApp) that enables users to fetch E
 ------------------------------
 - The "Reset" button clears the input fields and resets the application's state, allowing users to start a new verification cycle.
 
+
+
+
+
 ## Installation
 ---------------
 1. Clone the repository:
@@ -57,13 +61,17 @@ This project is a decentralized application (DApp) that enables users to fetch E
 2. Enter a block number to fetch transactions.
 3. Enter a transaction hash to generate and verify the Merkle proof.
 
+
+
+
 ## Thing to know befor running project
 --------------------------------------
-
 1. Sepolia testnet tokens are available limited to get. Prefer a alternate like ganache which
    provides with local ethereum testnet.
 2. Use Ether.js for best experience accordingly check the documentation for references.
 3. Use truffle framework to compile deploy and maintain smart contract written in solidity.
+
+
 
 ## Technologies Used
 --------------------
@@ -75,6 +83,10 @@ This project is a decentralized application (DApp) that enables users to fetch E
 5. Amazon Web Services :- Ec2 instance was used to create and host the ganache so that we can utilize and leverage the ganache ethereum environment for our project.
 6. truffle :- A framework  which provides compilation and deployment of the smart contracts written in solidity.
 
+
+
+
+
 ## Smart Contract Details
 
 1. Network: Sepolia testnet || ethereum mainnet( I prefered ethereum mainnet because the testnet blocks having no transactions at all. In our project we worked 
@@ -82,6 +94,10 @@ This project is a decentralized application (DApp) that enables users to fetch E
 2. Functions:
    -------|setMerkleRoot: Stores the Merkle root on-chain.
    -------|verifyTransactionInclusion: Verifies a transaction’s inclusion based on the provided Merkle proof.
+
+
+
+
 
 ## Future Improvements
 
@@ -94,7 +110,9 @@ This project is a decentralized application (DApp) that enables users to fetch E
 ------------------------------------------- # NETWORK AND APPLICATION RUNNING DETAILS : ---------------------------------------------
 
 1. I have hosted the ganache on ec2 instance of the aws. it now acts as the ethereum testnet for our project. According to our project the contract owner should be able call the setRoot function of our deployed smart contract. So I have to provide you with the wallets needed to access the network i hosted.
-  Available Accounts
+
+------------------------------------------------------------------------------------
+Available Accounts
 ==================
 (1) 0xb12bA0798667bE2666DfA7d0639c4879C766C3A0 (1000 ETH)
 (2) 0x8A7223D1b468f96853D0f6186EE06fC4B3b54479 (1000 ETH)
@@ -117,7 +135,7 @@ Private Keys
 (7) 0xf2903d888594d34b5b2d77cb46e1088976f3de06d917d8d5005c33f5037f3ddd
 (8) 0x327391b4248274f20afece51548c0823d860a6f1128c83ccf04e90a06c1d7639
 (9) 0x7fdd04342dba4afd1b0c79b09ee48e92b5b79c93f7353d129dc73e697d689260
-
+-------------------------------------------------------------------------------------------
 Each account is associated with 1000test eth which can used to widely test the application as needed. So first need to deploy the contract for that utilize 
 this 9 accounts utilizing this account can easily test and debug the application. 
 
@@ -131,20 +149,33 @@ this 9 accounts utilizing this account can easily test and debug the application
            */
 
 
+
 2. To connect to the testet mentioned above here are the steps:--
 step 1:--Open your metamask
 ![{E0AB4BC3-A3F9-45AE-921A-9773C946D468}](https://github.com/user-attachments/assets/a76a91f2-3df9-4fa2-941d-30c9508d4caf)
 
+
 click on the left side icon mostly a ethereum icon. the click on # Add a custom Network also select the option that says also show test networks.
 Now after clicking Add a custom Network button fill the exact details as show in below image to connect to Remote network that I have hosted.
-![{5380C3F4-6805-441C-AA8A-23598D0F9F06}](https://github.com/user-attachments/assets/10135a80-58bd-44b6-9808-f6e3ee88251d)
 just ignore the block explorer url and save the network.
 
+
+![{5380C3F4-6805-441C-AA8A-23598D0F9F06}](https://github.com/user-attachments/assets/10135a80-58bd-44b6-9808-f6e3ee88251d)
+
+
+
+
 3. Connect to this network just by selecting the network name we gave by clicking on left side top as shown in 2 step image.
+   
 4. Use the private keys given above to derive the accounts available and try to deploy and run the application.
-5. To derive the account just click on Add account or hardware wallet.
+   
+6. To derive the account just click on Add account or hardware wallet.
+   
 ![{84059154-7119-4F0F-8A1B-7AA273EAAE08}](https://github.com/user-attachments/assets/58ce193d-606d-4f5a-8ccc-da0e6bb0b549)
+
+
 6.import the account you wish to using the any of the above privates keys.
+
 7. Simply connect your metamask to the application and explore the block transactions with block number and derive the merkletree and as owner store it
    on the blockchain by mining a block and connect to smartcontract to check wethere the transaction given is a part of the merkletree root stored on the 
    blockchain
