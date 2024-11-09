@@ -32,13 +32,9 @@ This is a bot that tracks the usdc transfers to a specific address on the sepoli
 
 ## GaphgQl Subgraph setting for Graphql responces of the sepolia testnet address transfer monetoring:-
 
-# Notification Bot for Tracking USDC Transfers to a Specific Address
-
-This project tracks USDC transfers to a specific address on the Sepolia testnet using The Graph Protocol and pushes real-time notifications to the frontend.
+To start the project we must create a subgraph to get the notification and all from time to time subgraph is noting but it has a unique process of syncting the actual data of deployed contracts one and then and we will qurey this subgraph and get or implement a mechanism of pushing the notification timely to user.
 
 ## **Setting Up the Subgraph**
-
-to start the project we must create a subgraph to get the notification and all from time to time subgraph is noting but it has a unique process of syncting the actual data of deployed contracts one and then and we will qurey this subgraph and get or implement a mechanism of pushing the notification timely to user.
 
 1. Install Graph CLI: First, install the Graph CLI globally on your system:
 
